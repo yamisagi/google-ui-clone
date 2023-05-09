@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+
+nav a {
+  font-size: 13px;
+  display: inline-block;
+  line-height: 25px;
+  font-weight: 400;
+  color: rgb(0, 0, 0, 0.8);
+  cursor: pointer;
+  padding: 5px 6px;
+}
+nav a:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+nav img {
+  width: 30px;
+  padding: 5px;
+  margin: auto 5px;
+  cursor: pointer;
+}
+nav img:hover {
+  opacity: 0.5;
+}
+nav button {
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  background: #4285f4;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.search-section {
+  /* When we give this flex section same as i learned in Flutter */
+  /* This section will grow up as long as empty space. */
+  flex: 1;
+}
+.search-section .logo {
+  display: block;
+  margin: 0px auto;
+  margin-top: 20vh;
+}
+.search-box {
+  width: 40vw;
+  margin: 0px auto;
+  position: relative;
+  text-align: center;
+}
+.search-box .search-input {
+  display: block;
+  border: 1px solid #ddd;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 15px;
+  padding: 13px;
+  padding-left: 45px;
+  border-radius: 25px;
+  width: 100%;
+  transition: box-shadow 100ms;
+  outline: none;
+}
+
+.search-box .search-input:hover {
+  border: 1px solid #fff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.05), 0 0 2px rgba(0, 0, 0, 0.05),
+    0 0 3px rgba(0, 0, 0, 0.05), 0 0 4px rgba(0, 0, 0, 0.05),
+    0 0 5px rgba(0, 0, 0, 0.05), 0 0 4px rgba(0, 0, 0, 0.05),
+    0 0 5px rgba(0, 0, 0, 0.05);
+}
+.search-box .search-icon {
+  width: 20px;
+  opacity: 0.5;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+.search-box .voice-icon {
+  width: 15px;
+  position: absolute;
+  top: 15px;
+  right: 25px;
+}
+.search-button {
+  border: 1px solid transparent;
+  margin-top: 25px;
+  padding: 10px 15px;
+  color: #666;
+  font-size: 13px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+  /* To give smooth border-color we apply 100ms */
+  transition: border-color 100ms;
+}
+.search-button:hover {
+  border-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}

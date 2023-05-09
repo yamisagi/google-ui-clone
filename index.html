@@ -4,18 +4,47 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Google</title>
   </head>
   <body>
-    <div class="search-container">
-      <img src="./img/google-logo.png" alt="Google Logo" />
+    <nav>
+      <a href="#">Gmail</a>
+      <a href="#">Görseller</a>
+      <img src="./img/g-menu.png" />
+      <button>Giriş yap</button>
+    </nav>
+    <section class="search-section">
+      <img src="./img/google-logo.png" class="logo" />
       <form>
-        <input type="text" placeholder="Google'da ara" />
-        <div class="buttons-container">
-          <input type="submit" value="Google'da Ara" />
-          <button>Kendimi Şanslı Hissediyorum</button>
+        <br /><br />
+        <div class="search-box">
+          <img src="./img/search.svg" class="search-icon" />
+          <input type="text" class="search-input" />
+          <img src="./img/vs.png" class="voice-icon" />
+          <input type="submit" class="search-button" value="Google Arama" />
+          <input type="submit" class="search-button" value="Kendimi Şanslı Hissediyorum" />
         </div>
       </form>
-    </div>
+    </section>
+    <footer>
+      <h4>Türkiye</h4>
+      <div class="links">
+        <div class="left-side-links">
+          <a href="#">Hakkında</a>
+          <a href="#">Reklam</a>
+          <a href="#">İşletme</a>
+          <a href="#">Arama nasıl çalışır?</a>
+        </div>
+        <div class="middle-link">
+        <a href="#"><img src="./img/carbon.png" alt=""> 2007'den bu yana karbon nötr</a>
+        </div>
+        <div class="right-side-links">
+          <a href="#">Gizlilik</a>
+          <a href="#">Şartlar</a>
+          <a href="#">Ayarlar</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

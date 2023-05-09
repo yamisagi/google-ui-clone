@@ -62,6 +62,13 @@ In this repository, I will make a Google UI Clone for assignment of Full Stack W
 
 - [x] Project Setup
 - [x] HTML Structure
+- [x] Add Images and Icons
+- [x] Add CSS Styles
+- [x] Style Navbar 
+- [x] Style Search Form
+- [x] Add transition effects to Search Form 
+- [x] Style Buttons & Add effects to them
+
 
 
 
