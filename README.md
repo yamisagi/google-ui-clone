@@ -68,9 +68,10 @@ In this repository, I will make a Google UI Clone for assignment of Full Stack W
 - [x] Style Search Form
 - [x] Add transition effects to Search Form 
 - [x] Style Buttons & Add effects to them
-
-
-
+- [x] Style Footer
+- [x] Add Tablet Responsiveness & Mobile Responsiveness
+- [x] Some Refactoring
+- [x] Project Completed & Ready to Deploy
 
 
 

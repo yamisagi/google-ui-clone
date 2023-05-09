@@ -51,6 +51,26 @@ nav button {
   cursor: pointer;
   margin-left: 10px;
 }
+footer {
+  background: #f2f2f2;
+}
+footer h4 {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 15px;
+  line-height: 40px;
+  font-weight: 400;
+  padding-left: 40px;
+  border: 1px solid #eee;
+}
+footer a {
+  color: #5f6368;
+  display: inline-block;
+  padding: 12px 11.3px;
+  font-size: 14px;
+}
+footer a:hover {
+  text-decoration: underline;
+}
 
 .search-section {
   /* When we give this flex section same as i learned in Flutter */
@@ -73,7 +93,7 @@ nav button {
   border: 1px solid #ddd;
   color: rgba(0, 0, 0, 0.8);
   font-size: 15px;
-  padding: 13px;
+  padding: 15px;
   padding-left: 45px;
   border-radius: 25px;
   width: 100%;
@@ -117,4 +137,118 @@ nav button {
 .search-button:hover {
   border-color: rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.links {
+  border-top: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left-side-link {
+  padding-left: 20px;
+}
+.right-side-link {
+  padding-left: 20px;
+}
+
+.middle-link {
+  padding-right: 150px;
+  text-align: center;
+  flex: 1;
+}
+.carbon-img {
+  width: 10px;
+}
+
+/* Media Query for Mobile */
+
+@media (max-width: 768px) {
+  .search-box {
+    width: 80vw;
+  }
+  .search-box .search-input {
+    font-size: 13px;
+  }
+  .search-box .search-icon {
+    width: 15px;
+  }
+  .search-box .voice-icon {
+    width: 10px;
+  }
+  .search-button {
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+  .links {
+    display: none;
+  }
+  .middle-link {
+    padding-right: 0px;
+  }
+  .left-side-link {
+    padding-left: 0px;
+  }
+  .right-side-link {
+    padding-left: 0px;
+  }
+  nav {
+    margin-right: 10px;
+  }
+  nav img {
+    width: 25px;
+  }
+  nav button {
+    padding: 8px;
+    font-size: 12px;
+  }
+  footer h4 {
+    padding-left: 10px;
+  }
+  footer a {
+    padding: 10px 9.3px;
+    font-size: 12px;
+  }
+}
+
+/* Media Query for tablets */
+
+@media (max-width: 1024px) {
+  .search-box {
+    width: 60vw;
+  }
+  .search-box .search-input {
+    font-size: 14px;
+  }
+  .search-box .search-icon {
+    width: 18px;
+  }
+  .search-box .voice-icon {
+    width: 13px;
+  }
+  .search-button {
+    padding: 9px 12px;
+    font-size: 13px;
+
+  }
+  nav {
+    margin-right: 20px;
+  }
+  nav img {
+    width: 28px;
+  }
+  nav button {
+    padding: 9px;
+    font-size: 13px;
+  }
+  footer h4 {
+    padding-left: 20px;
+  }
+  footer a {
+    padding: 11px 10.3px;
+    font-size: 13px;
+  }
+  .middle-link {
+    padding-right: 10px;
+  }
 }
