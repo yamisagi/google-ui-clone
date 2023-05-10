@@ -91,6 +91,7 @@ footer a:hover {
 .search-box .search-input {
   /* Fix border-color for safari browser */
   -webkit-appearance: none;
+  appearance: none;
   display: block;
   border: 1px solid #ddd;
   color: rgba(0, 0, 0, 0.8);
@@ -126,6 +127,7 @@ footer a:hover {
 .search-button {
   /* Fix button background for safari  */
   -webkit-appearance: none;
+  appearance: none;
   background: #f2f2f2;
   border: 1px solid transparent;
   margin-top: 25px;
